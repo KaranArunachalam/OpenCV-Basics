@@ -59,7 +59,7 @@ plt.show()
 cv2.imwrite('Eagle_in_Flight.png',img)
 ```
 
-#### 5. Read the saved image above as a color image using cv2.cvtColor().
+#### 5. Read the image as color image using cv2.cvtColor().
 ```python
 img=cv2.imread('Eagle_in_Flight.png',1)
 img_rgb=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
